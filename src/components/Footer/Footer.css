@@ -1,0 +1,28 @@
+footer{
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  right: 1rem;
+  bottom: 3rem;
+}
+
+.lista-social-medias{
+  display: flex;
+  justify-content: center;
+  margin-right: 6rem;
+  list-style-type: none;
+}
+
+
+.lista-social-medias li{
+  margin-right: 1rem;
+  font-size: 3rem;
+}
+
+.lista-social-medias li i{
+  color: var(--color-texto);
+}
+
+.lista-social-medias li i:hover{
+  color: #f397ab;
+}

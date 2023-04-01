@@ -8,6 +8,7 @@ import NavBar from './Navbar/Navbar';
 import SkillsContent from './Skills/SkillsContent';
 import AboutContent from './About/AboutContent';
 import ContactContent from './Contact/ContactContent';
+import Footer from './Footer/Footer';
 
 function App() {
   const location = useLocation();
@@ -34,7 +35,7 @@ function App() {
         </CSSTransition>
       </SwitchTransition>
 
-
+    <Footer />
 
     </div>
   );

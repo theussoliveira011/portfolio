@@ -11,7 +11,7 @@ export default function NavBar(){
           <Link className='list' to="skills">Skills</Link>
           <Link className='list' to="about">About</Link>
           <Link className='list' to="contact">Contact</Link>
-        </ul>
+        </ul>     
       </div>
     </section>
   );
