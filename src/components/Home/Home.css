@@ -1,0 +1,31 @@
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+.name-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.name-title h1{
+  font-family: var(--fonte-texto);
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 117px;
+  padding: 10px;
+  margin: 0 auto;
+  color: var(--color-texto);
+}
+
+.name-title p{
+  font-family: var(--fonte-texto);
+  color: var(--color-texto);
+  font-size: 24px;
+  font-weight: 400;
+}
