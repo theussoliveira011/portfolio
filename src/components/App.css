@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,600&family=Yeseva+One&display=swap');
+
+:root{
+  --fonte-texto: 'Montserrat', sans serif;
+  --fonte-logo: 'Yeseva One', sans serif;
+  --color-texto: #F3B1BF;
+  --color-logo: #F8CED7;
+  --cor-para-ser-trocada: white;
+}
+
+#root{
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.App{
+  height: 100vh;
+  background-color: #2A282C;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* LOGO */
+
+.logo{
+  height: 96px;
+  width: 96px;
+  /*margin top - right - bottom - left*/
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+.logo-text{
+  font-size: 64px;
+  font-weight: 400;
+  color: var(--color-logo);
+  font-family: var(--fonte-logo);
+}
+
+  /* Animation Routes */
+
+.page-enter{
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active{
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 3s, transform 3s;
+}
+
+.page-exit{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active{
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 3ms, transform 3s;
+}
